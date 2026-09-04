@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+
+    /* Page background */
+    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+
+    margin: 0;
+    padding: 30px;
+}
+
+.cv-card {
+    max-width: 700px;
+    margin: auto;
+
+    /* CV background */
+    background-color: white;
+
+    padding: 30px;
+    border-radius: 15px;
+
+    /* Card shadow */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    text-align: center;
+
+    /* Colored top section */
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+
+    color: white;
+
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+h2 {
+    color: #2563eb;
+
+    border-bottom: 2px solid #2563eb;
+
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #4c1d95;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 11px 22px;
+
+    border: none;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#message {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .cv-card {
+        padding: 20px;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
